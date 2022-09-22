@@ -1,10 +1,13 @@
 import React from 'react'
 import "../App.css"
 import { SidebarData } from './SidebarData'
+import SidebarFooter from './SidebarFooter'
+import SidebarHeader from './SidebarHeader'
 
 function Sidebar(){
     return(
         <div className='Sidebar'>
+            <SidebarHeader/>
             <ul className='SidebarMenuOp'>
                 {SidebarData.map((val,key)=>{
                     return(
@@ -14,6 +17,7 @@ function Sidebar(){
                         </li>
                     )})}
             </ul>
+            <SidebarFooter />
         </div>
     ) 
 }
