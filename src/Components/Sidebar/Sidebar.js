@@ -1,5 +1,5 @@
 import React from 'react'
-import "../App.css"
+import "../../App.css"
 import { SidebarData } from './SidebarData'
 import SidebarFooter from './SidebarFooter'
 import SidebarHeader from './SidebarHeader'
